@@ -20,9 +20,12 @@ For each try, a specific audio will play.
 
 ## Run in local
 
-Open the game by opening index.html in your browser.
+Open the game by opening index-menu.html in your browser.
 
+## Link to online presentation
 
-## Link
+Click here.
+
+## Link to game
 
 Play here.
