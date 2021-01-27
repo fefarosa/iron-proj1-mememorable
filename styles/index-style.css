@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #264b34 50%, #102d6b 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 10vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+.ptbr-button,
+.eng-button {
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 15px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.ptbr-button {
+  background: #264b34;
+  color: #f5db27;
+}
+
+.eng-button {
+  background: #6b0a0a;
+  color: #acb7ce;
+}
+
+.ptbr-button:hover {
+  background: #f5db27;
+  color: #264b34;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.eng-button:hover {
+  background: #acb7ce;
+  color: #6b0a0a;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: inherit;
+  font-size: 30px;
+  text-shadow: 2px 2px 8px #000000;
+}

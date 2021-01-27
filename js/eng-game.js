@@ -7,33 +7,15 @@ let firstCard = "";
 let secondCard = "";
 
 function soundIncorrect() {
-  this.audioForIncorrect = [
-    { name: "caetano", file: "./sounds/caetano.mp3" },
-    { name: "errou", file: "./sounds/errou.mp3" },
-    { name: "erroufeio", file: "./sounds/erroufeio-audio.mp3" },
-    { name: "tulla", file: "./sounds/Tulla-audio.mp3" },
-  ];
   var audioInc = new Audio();
-  var randomAudioForIncorrect = this.audioForIncorrect[
-    Math.floor(Math.random() * this.audioForIncorrect.length)
-  ];
-  audioInc.src = randomAudioForIncorrect.file;
+  audioInc.src = "./eng-sounds/02nogod.mp3";
   audioInc.play();
-  audioInc.volume = 0.1;
+  audioInc.volume = 0.2;
 }
 
 function soundCorrect() {
-  this.audioForCorrect = [
-    { name: "cafe", file: "./sounds/cafeeee-audio.mp3" },
-    { name: "freddie", file: "./sounds/freddie-audio.mp3" },
-    { name: "jessica", file: "./sounds/jessica-audio.mp3" },
-    { name: "fogo", file: "./sounds/ta pegando fogo bicho.mp3" },
-  ];
   var audioCor = new Audio();
-  var randomAudioForCorrect = this.audioForCorrect[
-    Math.floor(Math.random() * this.audioForCorrect.length)
-  ];
-  audioCor.src = randomAudioForCorrect.file;
+  audioCor.src = "./eng-sounds/03whylying.mp3";
   audioCor.play();
   audioCor.volume = 0.1;
 }

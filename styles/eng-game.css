@@ -7,10 +7,10 @@
 body {
   width: 1400px;
   height: 900px;
-  background: linear-gradient(-45deg, #264b34, #314938, #40694c, #05240d);
-  background-size: 300% 300%;
+  background: linear-gradient(-45deg, #acb7ce, #1055eb, #6b0a0a, #102d6b);
+  background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -46,7 +46,8 @@ body {
   align-content: center;
   font-size: 35px;
   text-align: center;
-  color: #F5DB27;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px #000000;
   transform: rotate(-90deg);
 }
 
@@ -91,16 +92,20 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: #264b34;
+  background: rgba(172, 183, 206, 0.5);
   backface-visibility: hidden;
   transform: rotateY(180deg);
 }
 
+.front-face.background {
+  opacity: 0.5;
+}
+
 .back-face {
   width: 300px;
-  height: 212px;
+  height: 200px;
   border-radius: 5px;
   padding: 10px;
-  background: #264b34;
+  background: rgba(172, 183, 206, 0.8);
   backface-visibility: hidden;
 }
