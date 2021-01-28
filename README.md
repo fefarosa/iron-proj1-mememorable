@@ -22,10 +22,4 @@ For each try, a specific audio will play.
 
 Open the game by opening index-menu.html in your browser.
 
-## Link to online presentation
 
-Click here.
-
-## Link to game
-
-Play here.
