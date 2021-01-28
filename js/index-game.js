@@ -1,18 +1,20 @@
-// let ptbrButton = document.getElementById("ptbr-button");
-// let engButton = document.getElementById("eng-button");
+let ptbrButtonLink = document.getElementById("ptbr-button-link");
+let engButtonLink = document.getElementById("eng-button-link");
 
-// ptbrButton.onclick = 
-// function buttonSoundPtbr() {
-//     var audioPtbr = new Audio("./ptbr-sounds/01enter-cafe-audio.mp3");
-//     audioPtbr.play();
-//     audioPtbr.volume = 0.2;
-// }
+ptbrButtonLink.onclick = 
+function buttonSoundPtbr(event) {
+    event.preventDefault()
+    var audioPtbr = new Audio("./ptbr-sounds/01enter-cafe-audio.mp3");
+    audioPtbr.volume = 0.2;
+    audioPtbr.play();
+    setTimeout(() => window.location.href="./ptbr-game.html", 2000);
+}
 
-// engButton.onclick = 
-// function buttonSoundEng() {
-//   var audioEng = new Audio("./eng-sounds/01enter-pessimistic.mp3");
-//   audioEng.play();
-//   audioEng.volume = 0.2;
-// }
-
-
+engButtonLink.onclick = 
+function buttonSoundEng(event) {
+    event.preventDefault()
+  var audioEng = new Audio("./eng-sounds/01enter-pessimistic.mp3");
+  audioEng.volume = 0.2;
+  audioEng.play();
+  setTimeout(() => window.location.href="./ptbr-game.html", 2000);
+}
