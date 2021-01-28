@@ -23,6 +23,4 @@ For each try, a specific audio will play.
 Open the game by opening index.html in your browser.
 
 
-## Link
 
-Play here.
