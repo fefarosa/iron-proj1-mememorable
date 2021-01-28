@@ -64,11 +64,13 @@ body {
 .ptbr-button {
   background: #264b34;
   color: #f5db27;
+  padding: 0;
 }
 
 .eng-button {
   background: #6b0a0a;
   color: #acb7ce;
+  padding: 0;
 }
 
 .ptbr-button:hover {
@@ -97,4 +99,9 @@ a {
   color: inherit;
   font-size: 30px;
   text-shadow: 2px 2px 8px #000000;
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
+
