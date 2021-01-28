@@ -22,3 +22,6 @@ Open the game by opening index-menu.html in your browser.
 ## Presentation link
 
 [Here.](https://docs.google.com/presentation/d/13l_hSzlDfJE7zfWFuyCJRT6dGTWpyLazue5l3-vNuzs/edit?usp=sharing)
+
+[Here.](https://1drv.ms/p/s!AjIirwc3agEWgrhDJIkE1k1K59GARA?e=zfkPdq)
+
