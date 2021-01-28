@@ -8,8 +8,8 @@ let secondCard = "";
 
 function soundIncorrect() {
   this.audioForIncorrect = [
-    { name: "caetano", file: "./ptbr-sounds/02caetano-audio.mp3" },
-    { name: "errou", file: "./ptbr-sounds/02errou-audio.mp3" },
+    { name: "caetano", file: "../ptbr-sounds/02caetano-audio.mp3" },
+    { name: "errou", file: "../ptbr-sounds/02errou-audio.mp3" },
   ];
   var audioInc = new Audio();
   var randomAudioForIncorrect = this.audioForIncorrect[
@@ -22,8 +22,8 @@ function soundIncorrect() {
 
 function soundCorrect() {
   this.audioForCorrect = [
-    { name: "freddie", file: "./ptbr-sounds/03freddie-audio.mp3" },
-    { name: "fogo", file: "./ptbr-sounds/03fogo-audio.mp3" },
+    { name: "freddie", file: "../ptbr-sounds/03freddie-audio.mp3" },
+    { name: "fogo", file: "../ptbr-sounds/03fogo-audio.mp3" },
   ];
   var audioCor = new Audio();
   var randomAudioForCorrect = this.audioForCorrect[
