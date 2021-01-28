@@ -23,5 +23,6 @@ Open the game by opening index-menu.html in your browser.
 
 [Here.](https://docs.google.com/presentation/d/13l_hSzlDfJE7zfWFuyCJRT6dGTWpyLazue5l3-vNuzs/edit?usp=sharing)
 
-[Here.](https://1drv.ms/p/s!AjIirwc3agEWgrhDJIkE1k1K59GARA?e=zfkPdq)
+## Link to GitHub Pages
 
+[Here.](https://fefarosa.github.io/iron-proj1-mememorable/)
