@@ -8,14 +8,14 @@ let secondCard = "";
 
 function soundIncorrect() {
   var audioInc = new Audio();
-  audioInc.src = "./eng-sounds/02nogod.mp3";
+  audioInc.src = "../eng-sounds/02nogod.mp3";
   audioInc.play();
   audioInc.volume = 0.2;
 }
 
 function soundCorrect() {
   var audioCor = new Audio();
-  audioCor.src = "./eng-sounds/03whylying.mp3";
+  audioCor.src = "../eng-sounds/03whylying.mp3";
   audioCor.play();
   audioCor.volume = 0.1;
 }
